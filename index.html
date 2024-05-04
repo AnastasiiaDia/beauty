@@ -4,63 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty zome</title>
+    <link rel="stylesheet" href="./css/styls.css">
   </head>
   <body>
     <header>
       <nav>
         <a href="./index.html"><img src="./image/logo.svg" alt="логотип" /></a>
         <ul>
-          <li>Про нас</li>
-          <li>Чому ми</li>
-          <li>Наші процедури</li>
-          <li>Контакти</li>
+          <li><a class="link" href="#section-about">Про нас</a></li>
+          <li><a class="link" href="#section-benefits">Чому ми</a></li>
+          <li><a class="link" href="#section-services">Наші процедури</a></li>
+          <li><a class="link" href="#section-contacts">Контакти</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="section-hero">
-        <p>Косметологічна клініка</p>
-        <h1>beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="">Косметологічна клініка</p>
+        <h1 class="hero-title">beauty zone</h1>
+        <button class="button" type="button">Замовити дзвінок</button>
+        <p class="hero-text">Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
-      <section class="section-changings">
-        <h2>Перевтілюйтесь в <span>beauty zone!</span></h2>
-        <p>Наша косметологічна клініка пропонує вам професійні послуги 
+      <section id="section-about">
+        <h2 class="section-title">Перевтілюйтесь в <span class="accent">beauty zone!</span></h2>
+        <p class="about-text">Наша косметологічна клініка пропонує вам професійні послуги 
 з догляду за шкірою обличчя та тіла.</p>
-<p>B  <span>beauty zone</span> ми гарантуємо найвищі стандарти якості 
+<p class="about-text">B  <span>beauty zone</span> ми гарантуємо найвищі стандарти якості 
 та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. 
 З нами краса назавжди!</p>
       </section>
-      <section class="section-benefits">
-        <h2>Чому люди <span>обирають нас</span></h2>
+      <section id="section-benefits">
+        <h2 class="section-title">Чому люди <span class="accent">обирають нас</span></h2>
         <article>
-            <p>Всі наші косметологи мають вищу медичну освіту 
+            <p class="benefits-text">Всі наші косметологи мають вищу медичну освіту 
 та стаж роботи від 5 років</p>
         </article>
         <article>
-            <p>Використовуємо тільки професійне обладнання та косметику, перевірену часом</p>
+            <p class="benefits-text">Використовуємо тільки професійне обладнання та косметику, перевірену часом</p>
         </article>
                 <article>
             <p>Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
         </article>
       </section>
-      <section class="section-treatment">
-        <h2>Наші <span>процедури</span></h2>
+      <section id="section-services">
+        <h2 class="section-title">Наші <span class="accent">процедури</span></h2>
       </section>
-      <section class="section-contacts">
-        <h2>Як нас <span>знайти</span></h2>
+      <section id="section-contacts">
+        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.932393986853!2d30.513304392298895!3d50.4423599147027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCDQo9C60YDQsNGX0L3QsCwgMDIwMDA!5e0!3m2!1suk!2ses!4v1714765055069!5m2!1suk!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </main>
     <footer>
       <nav>
         <a href=""><img src="./image/logo.svg" alt="логотип" /></a>
-        <ul>
-          <li>Про нас</li>
-          <li>Чому ми</li>
-          <li>Наші процедури</li>
-          <li>Контакти</li>
+        <ul>        
+          <li><a class="link" href="#section-about">Про нас</a></li>
+          <li><a class="link" href="#section-benefits">Чому ми</a></li>
+          <li><a class="link" href="#section-services">Наші процедури</a></li>
+          <li><a class="link" href="#section-contacts">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -78,12 +79,12 @@
           </li>
         </ul>
         <ul>
-          <li>phone</li>
-          <li>facebook</li>
-          <li>insta</li>
+          <li class="link">phone</li>
+          <li class="link">facebook</li>
+          <li class="link">insta</li>
         </ul>
       </address>
-      <p>Політика конфіденційності</p>
+      <a href="#" target="_blank"><p>Політика конфіденційності</p></a>
       <p>&copy; 2022 Дані захищені</p>
     </footer>
   </body>
