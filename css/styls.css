@@ -89,33 +89,69 @@ address {
 .section {
   padding-bottom: 96px;
 }
+
 .container {
   width: 100%;
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 24px;
 }
+
 /* Header */
+.logo { 
+  height: 42px;
+}
+
+.logo.header {
+ width: 74px;
+}
+
 .header-container {
+  height: 106px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   gap: 40px;
+  background-image: linear-gradient(#FFFFFF40 25%);
+  
 }
 .header-nav {
   display: flex;
   flex-grow: 1;
   align-items: center;
 }
+
 .header-menu {
   display: flex;
   gap: 56px;
   justify-content: center;
   flex-grow: 1;
 }
+
+.socials-list {
+  display: flex;
+  gap: 32px;
+}
+
+.social-link {
+  background-color: transparent;
+  border: none;  
+  cursor: pointer;
+}
+
+
+.social-link:hover {
+ fill: var(--color-brand);
+}
+
 /* Hero section*/
+
 .section-hero {
   height: 688px;
-  padding-top: 16px;
+  padding-top: 106px;
   padding-bottom: 194px;
   background-image: linear-gradient(
       89.38deg,
@@ -126,8 +162,8 @@ address {
     ),
     url("../image/hero-background.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center top;
+  background-size: cover;
+  background-position: center top; 
 }
 .hero-pre-header {
   line-height: 1.16;
@@ -160,7 +196,7 @@ address {
   line-height: 1.17;
   cursor: pointer;
   /* border-color: var(--color-brand); */
-  border: none;
+  border-color: transparent;
   border-radius: 32px;
   padding: 16px 32px 16px 32px;
 }
@@ -277,7 +313,13 @@ address {
 /* Contacts section */
 .contacts-title {
   margin-bottom: 48px;
-}
+
+
+/* Footer */
+
+.logo.footer {
+  width: 83px;
+ }
 footer {
   background-color: var(--color-primary-dark);
   line-height: 1.17;
@@ -294,4 +336,8 @@ footer a {
 }
 address:hover {
   color: var(--color-brand);
+}
+
+footer .social-link {
+  fill: var(--color-primary-light);
 }
