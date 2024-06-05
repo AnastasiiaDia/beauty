@@ -1,0 +1,87 @@
+.footer-container {
+  display: flex;
+  padding: 56px 0;
+}
+
+.footer-nav,
+.footer-address {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.footer-logo {
+  flex-grow: 1;
+}
+
+.nav-list,
+.address-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.address-list,
+.address-confidencial {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: var(--color-primary-dark);
+  line-height: 1.17;
+}
+
+footer .link {
+  font-size: 16px;
+  color: var(--color-primary-light);
+}
+
+footer a {
+  font-size: 16px;
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.address-link {
+  transition: color 0.3s;
+}
+
+.address-link:hover {
+  color: var(--color-brand);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 24px;
+  fill: var(--color-primary-light);
+}
+
+.social-link {
+  fill: var(--color-primary-light);
+}
+
+.address-confidencial {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.address-co {
+  color: var(--color-light-brown);
+}
+
+.footer {
+  position: relative;
+  background-image: url('../image/footer-background.png');
+}
+
+.footer::after {
+  position: absolute;
+  content: '';
+  width: 278px;
+  height: 213px;
+  background-image: url('../image/bottles.png');
+  background-repeat: no-repeat;
+  bottom: -61px;
+  right: 0;
+}

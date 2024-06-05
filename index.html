@@ -9,7 +9,7 @@
     <title>Beauty zome</title>
     <link
       rel="stylesheet"
-      href="./css/styls.css"
+      href="./css/main.css"
     />
   </head>
   <body>
@@ -267,6 +267,7 @@
             <form
               name="form-contact"
               class="form-contact"
+              autocomplete="off"
             >
               <p class="form-text">
                 Запишіться <span class="accent">безкоштовно</span> та отримайте
@@ -278,6 +279,7 @@
                   type="text"
                   placeholder="Ваше ім'я та прізвище"
                   id="user-name"
+                  required
                 />
                 <label
                   class="form-label visually-hidden"
@@ -291,6 +293,7 @@
                   type="text"
                   id="user-tel"
                   placeholder="Ваш номер телефону"
+                  required
                 />
                 <label
                   class="form-label visually-hidden"
@@ -304,6 +307,7 @@
                   type="text"
                   placeholder="Ваша електронна пошта"
                   id="user-email"
+                  required
                 />
                 <label
                   class="form-label visually-hidden"
@@ -314,6 +318,7 @@
               <button
                 class="button form-button"
                 type="submit"
+                disabled
               >
                 Записатись безкоштовно
               </button>
@@ -480,6 +485,7 @@
               type="text"
               placeholder="Ваше ім'я та прізвище"
               id="user-name"
+              required
             />
             <label
               class="form-label visually-hidden"
@@ -493,6 +499,7 @@
               type="text"
               id="user-tel"
               placeholder="Ваш номер телефону"
+              required
             />
             <label
               class="form-label visually-hidden"
@@ -506,6 +513,7 @@
               type="text"
               placeholder="Ваша електронна пошта"
               id="user-email"
+              required
             />
             <label
               class="form-label visually-hidden"
@@ -516,6 +524,7 @@
           <button
             class="button form-button"
             type="submit"
+            disabled
           >
             Записатись безкоштовно
           </button>

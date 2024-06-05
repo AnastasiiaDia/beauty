@@ -1,0 +1,48 @@
+.logo {
+  height: 42px;
+}
+
+.logo.header {
+  width: 74px;
+}
+
+.header-container {
+  height: 106px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.header-nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.socials-list {
+  display: flex;
+  gap: 32px;
+}
+
+.social-link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.social-link:hover {
+  fill: var(--color-brand);
+}
